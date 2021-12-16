@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 import img from "assets/images/1.png";
 import Link from "next/link";
 
