@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 interface Acticle {
   title: string;
   data: string;
+  id: number;
 }
 const usePosts = () => {
   const [posts, set_posts] = useState<Acticle[]>();
